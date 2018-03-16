@@ -5,13 +5,12 @@ import com.jprofessionals.di.core.professionals.PaymentStatus;
 import org.springframework.stereotype.Component;
 
 @Component
-class PaysafeGateway {
+class PayPalGateway {
 
   PaymentStatus process(PaymentDetails details) {
 
     // process payment details and return response
 
-    return PaymentStatus.SUCCESSFUL;
+    return PaymentStatus.FAILED;
   }
-
 }

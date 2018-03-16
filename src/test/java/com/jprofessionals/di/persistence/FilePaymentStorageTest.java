@@ -5,7 +5,6 @@ import com.jprofessionals.di.core.professionals.PaymentDetails;
 import com.jprofessionals.di.core.professionals.PaymentStatus;
 import com.jprofessionals.di.core.professionals.PaymentStorage;
 import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.nio.file.Files;

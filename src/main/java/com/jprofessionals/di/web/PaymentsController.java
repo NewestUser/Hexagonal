@@ -3,7 +3,6 @@ package com.jprofessionals.di.web;
 import com.jprofessionals.di.core.professionals.Payment;
 import com.jprofessionals.di.core.professionals.PaymentDetails;
 import com.jprofessionals.di.core.professionals.ProfessionalPayments;
-import org.apache.tomcat.util.http.parser.HttpParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
