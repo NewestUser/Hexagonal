@@ -16,5 +16,13 @@ public class PaymentDetails {
     this.currency = currency;
   }
 
-
+  @Override
+  public String toString() {
+    return "PaymentDetails{" +
+            "userId='" + userId + '\'' +
+            ", provider='" + provider + '\'' +
+            ", amount=" + amount +
+            ", currency='" + currency + '\'' +
+            '}';
+  }
 }

@@ -24,4 +24,12 @@ public class Payment {
     return details;
   }
 
+  @Override
+  public String toString() {
+    return "Payment{" +
+            "id='" + id + '\'' +
+            ", status=" + status +
+            ", details=" + details +
+            '}';
+  }
 }
